@@ -1,0 +1,16 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+    "code": "kmitsuishi",
+    "url" : "https://github.com/kmitsuishi-08"
+}
+
+###
+GET http://localhost:3333/api/links
+
+###
+GET http://localhost:3333/kmitsuishi
+
+###
+GET http://localhost:3333/api/metrics
